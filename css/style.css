@@ -83,3 +83,45 @@ font-family: 'Jost', sans-serif;
 .separator{
 width: 2% !important;
 }
+
+/* feature 2*/
+
+.section-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.9;
+    color: #7153d9;
+    text-transform: uppercase;
+    letter-spacing: 8px
+}
+
+.section-title{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+}
+
+.section-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #54545f;
+    margin-top: 30px;
+    max-width: 510px;
+
+}
+
+.feature2-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.feature2-p{
+    font-size: 18px;
+    color:#54545f;
+}
+
+.feature2-list li::before{
+    color:#7153d9;
+}
