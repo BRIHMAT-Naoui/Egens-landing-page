@@ -1,7 +1,9 @@
 body {
-background-color: #E9EDF4;
 font-family: 'Jost', sans-serif;
 
+}
+.banner-bg{
+    background-color: #E9EDF4;
 }
 .nav-link{
     font-size: 18;
@@ -54,4 +56,30 @@ font-family: 'Jost', sans-serif;
 .nav-active {
     background-color:#fff;
     box-shadow: 5px -1px 12px -5px grey;
+}
+
+.feature-icon{
+    background-color: #E9EDF4;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 6.2;
+}
+.feature-text{
+   color: #54545f;;
+}
+.image-section{
+    min-height: 451px;
+
+}
+.image-section1{
+    width: 736px !important;
+    min-height: 451px;
+
+}
+
+
+.separator{
+width: 2% !important;
 }
