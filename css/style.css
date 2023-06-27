@@ -89,10 +89,10 @@ width: 2% !important;
 .section-subtitle{
     font-size: 18px;
     font-weight: 500;
-    line-height: 1.9;
+    /* line-height: 1.9; */
     color: #7153d9;
-    text-transform: uppercase;
-    letter-spacing: 8px
+    /* text-transform: uppercase; */
+    /* letter-spacing: 8px */
 }
 
 .section-title{
@@ -124,4 +124,22 @@ width: 2% !important;
 
 .feature2-list li::before{
     color:#7153d9;
+}
+
+.service-card{
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    border-radius: 20px;
+}
+
+
+.service-link{
+  text-decoration: none;
+  color: black;
+
+}
+
+.service-card-title {
+ line-height: 1.5;
+ color: #7153d9;
+
 }
